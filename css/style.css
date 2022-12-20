@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+    
+}
+.calander_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    width: 1170px;
+    margin: 100px auto;
+    
+}
+.calender {
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows:  2rem repeat(5, 2rem);
+    /* grid-gap: 0.5rem; */
+    
+
+}
+
+
+.date, .day {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+
+.day{
+    background-color: #999;
+    color: #fff;
+}
+
+
