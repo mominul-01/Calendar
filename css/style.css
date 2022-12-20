@@ -10,14 +10,24 @@
     height: 400px;
     
 }
-.calander_container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 4rem;
-    width: 1170px;
-    margin: 100px auto;
-    
+.calander_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4rem;
+	width: 80%;
+	margin: 100px auto;
 }
+.calender_item{
+    display: grid;
+    flex-direction: row;
+}
+
+.month{
+    background: red;
+    text-align: center;
+}
+
+
 .calender {
     display: grid;
     height: 200px;
@@ -45,4 +55,30 @@
     color: #fff;
 }
 
+.month h3 {
+	padding: 13px 0;
+	color: #fff;
+}
 
+
+
+/* color class  */
+.bg_1{
+    background: royalblue;
+}
+.bg_2{
+    background: goldenrod;
+}
+.bg_3{
+    background: dodgerblue;
+}
+.bg_4{
+    background: coral;
+}
+.bg_5{
+    background: darkorange;
+}
+
+.bg_6{
+    background: hotpink;
+}
