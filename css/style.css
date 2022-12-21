@@ -3,12 +3,39 @@
     padding: 0;
     outline: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 .banner{
     background: url(../img/banner.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
     
+}
+.banner_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%; 
+}
+
+.banner_content h1{
+    color: #fff;
+    font-size: 220px;
+}
+
+.year_1 {
+	text-shadow: -4px 5px 8px goldenrod;
+}
+.year_2 {
+	text-shadow: -4px 5px 8px hotpink;
+}
+.year_3 {
+	text-shadow: -4px 5px 8px royalblue;
+}
+.year_4 {
+	text-shadow: -4px 5px 8px red;
 }
 .calander_container {
 	display: grid;
@@ -45,18 +72,26 @@
     justify-content: center;
     align-items: center;
     /* border-radius: 10px; */
-    font-weight: 600;
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    font-weight: 700;
+}
+.date:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 161);
+    border-radius: 50%;
 }
 
 
 .day{
-    background-color: #999;
-    color: #fff;
+    background-color: #DDDDDD;
+}
+
+.off_day{
+    color: #FE402F;
 }
 
 .month h3 {
-	padding: 13px 0;
+	padding: 10px 0;
 	color: #fff;
 }
 
@@ -64,21 +99,21 @@
 
 /* color class  */
 .bg_1{
-    background: royalblue;
+    background: #F1C00B;
 }
 .bg_2{
-    background: goldenrod;
+    background: #FE402F;
 }
 .bg_3{
-    background: dodgerblue;
+    background: #34696F;
 }
 .bg_4{
-    background: coral;
+    background: #3BBFB1;
 }
 .bg_5{
-    background: darkorange;
+    background: #1E1E1E;
 }
 
 .bg_6{
-    background: hotpink;
+    background: #BF4E6C;
 }
